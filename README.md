@@ -57,4 +57,4 @@ _Statistical test_:
   * data type is numerical (safety rating is given from 1-5) 
 
 _Data needed_:
-* Vechicle Crash Test database provided from the NHTSA 
+* Data scraping from NHTSA website for safety rating for all models of MechaCar and of the competition
