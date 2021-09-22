@@ -2,8 +2,8 @@
 
 ## Linear Regression to Predict MPG
 
-![linear_regression_del1](Resources/linear_regression_del1.png)
-![summary_del1](Resources/summary_del1.png) 
+![linear_regression_del1](Resources/linear_regression_del1.png){:height="50%" width="50%"}
+![summary_del1](Resources/summary_del1.png){:height="50%" width="50%"}
 
 * **vehicle_length** and **ground_clearance** provided a non-random amount of variance to the mpg values in the dataset
 * slope of linear model not considered to be zero because the model's r-squared value is 0.7149, which is a result of the vehicle_length and ground_clearance's significant impact on the mpg -- linear model wouldn't be a flat line with a slope of zero 
@@ -11,8 +11,8 @@
 
 ## Summary Statistics on Suspension Coils
 
-![total_summary](Resources/total_summary.png)
-![lot_summary](Resources/lot_summary.png)
+![total_summary](Resources/total_summary.png){:height="50%" width="50%"}
+![lot_summary](Resources/lot_summary.png){:height="50%" width="50%"}
 
 * current manufacturing data meets the design specification for all manufacturing lots in total because its variance is under 100 pounds/square inch (62 pounds per square inch)
 * current manufacturing data meets the design specification for Lots 1 and 2 because their variances are under 100 pounds/square inch (1 pound and 7 pounds, respectively)
@@ -20,22 +20,26 @@
 
 ## T-Tests on Suspension Coils
 
-![ttest_all_lots](Resources/ttest_all_lots.png)
+### All lots
+![ttest_all_lots](Resources/ttest_all_lots.png){:height="50%" width="50%"}
 
 * the mean PSI for all manufacturing lots is not statistically different from the population mean 
 * p-value is over 0.05 (0.06028)
 
-![ttest_1](Resources/ttest_1.png)
+### Lot 1
+![ttest_1](Resources/ttest_1.png){:height="50%" width="50%"}
 
 * the mean PSI for Lot 1 is not statistically different from the population mean 
 * p-value is over 0.05 (1), which means that the mean PSI for Lot 1 is equal to the population mean 
 
-![ttest_2](Resources/ttest_2.png)
+### Lot 2
+![ttest_2](Resources/ttest_2.png){:height="50%" width="50%"}
 
 * the mean PSI for Lot 2 is not statistically different from the population mean 
 * p-value is over 0.05 (0.6072)
 
-![ttest_3](Resources/ttest_3.png)
+### Lot 3
+![ttest_3](Resources/ttest_3.png){:height="50%" width="50%"}
 
 * the mean PSI for Lot 3 is **statistically different** from the population mean 
 * p-value is under 0.05 (0.04168)
